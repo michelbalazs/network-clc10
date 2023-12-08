@@ -12,7 +12,7 @@ provider "aws" {
     
     default_tags {
         tags = {
-            Owner   = "Vinicius Cavalcanti"
+            Owner   = "Michel Balazs"
             Env     = "Producao New Teste"
             Class   = "CLC10"
         }
