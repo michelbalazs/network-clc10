@@ -15,7 +15,7 @@ env:
 jobs:
     apply-dev:
         name: 'terraform apply'
-        runs-on: ubuntu-lastest
+        runs-on: ubuntu-latest
         env:
             TF_WORKING_DIR: 'prod'
             
