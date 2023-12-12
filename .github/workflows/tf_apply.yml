@@ -31,7 +31,7 @@ jobs:
             - name: Setup Terraform
               uses: hashicorp/setup-terraform@v1
               with:
-                terraform_versio: 1.0.0
+                terraform_versio: 1.7.0
                 
             - name: Terraform fmt
               id: fmt
