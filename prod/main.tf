@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "5.17.0"
+      version = "5.30"
     }
   }
 }
@@ -13,7 +13,7 @@ provider "aws" {
     default_tags {
         tags = {
             Owner   = "Michel Balazs"
-            Env     = "Producao New Teste"
+            Env     = "Producao"
             Class   = "CLC10"
         }
     }
